@@ -44,6 +44,8 @@ Revision History
 #include "ia32/efibind.h"
 #elif defined (_M_ARM64) || defined(__aarch64__)
 #include "aarch64/efibind.h"
+#elif defined (__loongarch_lp64)
+#include "loongarch64/efibind.h"
 #elif defined (__riscv) && __riscv_xlen == 64
 #include "riscv64/efibind.h"
 #else

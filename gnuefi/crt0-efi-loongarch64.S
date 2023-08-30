@@ -141,7 +141,6 @@
   .align 12
   .globl _start
   _start:
-  .option norelax
 	addi.d	  $sp, $sp, -24
 	st.d	  $ra, $sp, 0
 	st.d	  $a0, $sp, 8
